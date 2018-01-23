@@ -29,7 +29,7 @@ mg_villages.add_building( { scm="spawn_town_hall_2_0", mts_path=path, weight={sp
 -- Important: at least one other type of building has to be there so that the mod can work (in this case: an empty plot)
 
 -- empty plot (just so that there is one other building; can be bought by players if they want to)
-mg_villages.add_building( { scm="empty_5x5", mts_path=path, weight={spawn=1/2}, typ='empty5x5', inh=0});
+mg_villages.add_building( { scm="empty_5x5_1_0", mts_path=path, weight={spawn=1/2}, typ='empty5x5', inh=0});
 -- some trees now and then are nice to look at
 mg_villages.add_building( { scm="empty_with_tree_1_0", mts_path=path, weight={spawn=1/8}, typ='empty5x5', inh=0});
 -- empty plots which your players can buy
